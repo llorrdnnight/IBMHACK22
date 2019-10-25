@@ -9,6 +9,9 @@
     $this->(FavouritesTableSeeder::class);
     $this->(OrdersTableSeeder::class);
     $this->(IngredientsTableSeeder::class);
+
+    //veel veel
+    $this->(Ingredient_OrderTableSeeder::class);
     }
 
   }
