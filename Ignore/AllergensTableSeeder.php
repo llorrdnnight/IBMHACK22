@@ -4,7 +4,8 @@
   class AllergensTableSeeder extends Seeder
   {
     public function run(){
-    factory(\App\Allergen::class, 5)->create();
+    // AllergensTableSeeder does call upon the AllergensFactory
+    factory(\App\Allergen::class, 3)->create();
     }
 
   }
