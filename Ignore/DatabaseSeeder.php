@@ -4,6 +4,8 @@
   class DatabaseSeeder extends Seeder
   {
     public function run(){
+
+
     // Intialize table mock data
     $this->(UsersTableSeeder::class);
     $this->(RecipesTableSeeder::class);
@@ -16,7 +18,7 @@
     $this->(Ingredient_OrderTableSeeder::class);
     $this->(Ingredient_RecipeTableSeeder::class);
     $this->(Ingredient_UserTableSeeder::class);
-    $this->(Allergenen_RecipeTableSeeder::class);
+    $this->(Allergens_RecipeTableSeeder::class);
     }
 
   }
