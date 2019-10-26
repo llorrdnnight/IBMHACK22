@@ -5,8 +5,8 @@
   {
     public function run(){
     // Intialize table mock data
-    $this->(UserTabelSeeder::class);
-    $this->(RecipesTabelSeeder::class);
+    $this->(UserTableSeeder::class);
+    $this->(RecipesTableSeeder::class);
     $this->(FavouritesTableSeeder::class);
     $this->(OrdersTableSeeder::class);
     $this->(IngredientsTableSeeder::class);
